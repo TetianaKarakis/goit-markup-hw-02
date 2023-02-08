@@ -5,6 +5,7 @@
   --ligo-color: #4d5ae5;
   --button-color: #404bbf;
   --color-background: #ffffff;
+  --color-background-button: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -26,7 +27,6 @@ ul {
 }
 .logo-second {
   color: var(--primary-text-color);
-  text-transform: uppercase;
 }
 .logo-second-footer {
   font-family: "Raleway";
@@ -60,7 +60,6 @@ ul {
 .link {
   text-decoration: none;
   color: var(--primary-text-color);
-  font-family: inherit;
 }
 .link:hover {
   color: var(--button-color);
@@ -72,7 +71,6 @@ ul {
   background-color: var(--primary-text-color);
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -86,6 +84,7 @@ ul {
   color: var(--color-background);
   letter-spacing: 0.04em;
   font-family: "Roboto";
+  cursor: pointer;
 }
 .hero-button:hover {
   background-color: var(--button-color);
@@ -94,7 +93,6 @@ ul {
   background-color: var(--button-color);
 }
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -128,10 +126,21 @@ ul {
   background-color: var(--button-color);
   color: var(--color-background);
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button-secondary {
   color: var(--ligo-color);
   font-family: inherit;
+  background-color: var(--color-background-button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .title {
   color: var(--primary-text-color);
@@ -142,7 +151,7 @@ ul {
 }
 .job {
   color: var(--accent-color);
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -156,7 +165,7 @@ ul {
 }
 .section-text {
   color: var(--accent-color);
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
